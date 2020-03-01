@@ -1,6 +1,6 @@
 {
   "name": "udacity-c2-restapi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "src/server.js",
   "scripts": {
@@ -10,8 +10,8 @@
     "prod": "tsc && node ./www/server.js",
     "clean": "rm -rf www/ || true",
     "build": "npm run clean && tsc && cp -rf src/config www/config && cp .npmrc www/.npmrc && cp package.json www/package.json && cd www && zip -r Archive.zip . && cd ..",
-    "docker_build": "docker build -t \"$USER/$(basename $PWD)\" .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dockerbuild": "docker build -t \"$USER/$(basename $PWD)\" ."
   },
   "keywords": [],
   "author": "Gabriel Ruttner",
