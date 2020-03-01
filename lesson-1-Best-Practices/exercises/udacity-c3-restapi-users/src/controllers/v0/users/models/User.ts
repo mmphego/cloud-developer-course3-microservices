@@ -2,7 +2,7 @@ import {Table, Column, Model, HasMany, PrimaryKey, CreatedAt, UpdatedAt} from 's
 
 @Table
 export class User extends Model<User> {
-  
+
   @PrimaryKey
   @Column
   public email!: string;
