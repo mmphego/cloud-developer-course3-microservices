@@ -1,5 +1,9 @@
 ## Build
 FROM beevelop/ionic AS ionic
+RUN apt-get update && \
+    apt-get install -y python2.7-dev make g++ && \
+    rm -rf /var/lib/apt/lists/*
+RUN ln -s /usr/bin/python2.7 /usr/bin/python
 # Create the application directory
 WORKDIR /usr/src/app
 # Install the application dependencies
