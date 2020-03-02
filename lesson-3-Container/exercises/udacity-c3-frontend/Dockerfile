@@ -10,6 +10,7 @@ WORKDIR /usr/src/app
 # We can use wildcard to ensure both package.json AND package-lock.json are considered
 # where available (npm@5+)
 COPY package*.json ./
+RUN npm audit fix
 RUN npm ci
 # Bundle app source
 COPY . .
