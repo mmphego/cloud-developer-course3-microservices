@@ -1,18 +1,18 @@
 version: "3"
 services:
-  reverseproxy:
+  reverse_proxy:
     build:
       context: .
-    image: sudkul/reverseproxy
+    image: mmphego/reverse-proxy
   backend_user:
     build:
       context: ../../udacity-c3-restapi-user
-    image: sudkul/udacity-restapi-user
+    image: mmphego/udacity-c3-restapi-user
   backend_feed:
     build:
       context: ../../udacity-c3-restapi-feed
-    image: sudkul/udacity-restapi-feed
+    image: mmphego/udacity-c3-restapi-feed
   frontend:
     build:
       context: ../../udacity-c3-frontend
-    image: sudkul/udacity-frontend:local
+    image: mmphego/udacity-c3-frontend:local
