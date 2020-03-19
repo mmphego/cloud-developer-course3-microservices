@@ -18,7 +18,7 @@ If you get a `not found` message, install the required item:
 Perform the following tasks in the sequence mentioned below:
 
 ### Task 1 - Clone the project GitHub repository 
-Clone the [course repo](https://github.com/scheeles/cloud-developer) and stay on the `master` branch.
+Clone the [course repo](https://github.com/mmphegos/cloud-developer) and stay on the `master` branch.
 
 ```bash
 git clone https://github.com/udacity/nd9990-c3-microservices-v1

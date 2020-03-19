@@ -3,7 +3,7 @@ The exercises in this lesson are an extension of the exercises you have already 
 
 ### Exercise Instructions
 #### Task 1 - Clone the project GitHub repository (if not aleady)
-Clone the [course repo](https://github.com/scheeles/cloud-developer) and stay on the `master` branch. **We will use the starter code from the lesson - 1.** 
+Clone the [course repo](https://github.com/mmphegos/cloud-developer) and stay on the `master` branch. **We will use the starter code from the lesson - 1.** 
 ```bash
 git clone https://github.com/udacity/nd9990-c3-microservices-v1
 cd nd9990-c3-microservices-v1/
