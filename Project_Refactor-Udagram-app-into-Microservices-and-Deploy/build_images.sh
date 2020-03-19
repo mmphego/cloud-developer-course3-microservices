@@ -6,5 +6,6 @@ find . -name 'Dockerfile' -print0 | while IFS= read -r -d '' line; do
     npm audit fix
     npm i
     docker build --no-cache -t "$USER/$(basename $PWD)" .
+    docker push "$USER/$(basename $PWD):latest"
     popd
 done
