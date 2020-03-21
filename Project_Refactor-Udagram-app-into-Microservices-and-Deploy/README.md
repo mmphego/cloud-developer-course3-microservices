@@ -69,3 +69,29 @@ minikube start --vm-driver=docker
 # Script will configure kubenetes
 bash kubenetes_apply_yml.sh
 ```
+
+# Results
+
+As per screenshot below, this is the results of a successful running project.
+
+# Docker container logs and running pods.
+![](https://raw.githubusercontent.com/mmphego/cloud-developer-course3-microservices/master/Project_Refactor-Udagram-app-into-Microservices-and-Deploy/assets/kubectl_pods.png)
+
+# Kubenetes deployment and running pods.
+![](https://raw.githubusercontent.com/mmphego/cloud-developer-course3-microservices/master/Project_Refactor-Udagram-app-into-Microservices-and-Deploy/assets/kube_deplo.png)
+
+# Docker Hub Dashboard
+![](https://raw.githubusercontent.com/mmphego/cloud-developer-course3-microservices/master/Project_Refactor-Udagram-app-into-Microservices-and-Deploy/assets/docker_hub.png)
+
+# Travis Dashboard
+![](https://raw.githubusercontent.com/mmphego/cloud-developer-course3-microservices/master/Project_Refactor-Udagram-app-into-Microservices-and-Deploy/assets/travis_dash.png)
+
+# Travis build status
+![](https://raw.githubusercontent.com/mmphego/cloud-developer-course3-microservices/master/Project_Refactor-Udagram-app-into-Microservices-and-Deploy/assets/travis_build_success.png)
+
+# Travis build history
+![](https://raw.githubusercontent.com/mmphego/cloud-developer-course3-microservices/master/Project_Refactor-Udagram-app-into-Microservices-and-Deploy/assets/travis_build.png)
+
+## App running on browser
+
+![](https://raw.githubusercontent.com/mmphego/cloud-developer-course3-microservices/master/Project_Refactor-Udagram-app-into-Microservices-and-Deploy/assets/app.png)
