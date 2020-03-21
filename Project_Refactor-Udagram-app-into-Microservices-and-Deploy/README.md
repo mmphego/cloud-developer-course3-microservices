@@ -44,7 +44,6 @@ You'll need to create a new node server. Open a new terminal within the project 
 ### Configure The Backend Endpoint
 Ionic uses environment files located in `./src/enviornments/enviornment.*.ts` to load configuration variables at runtime. By default `environment.ts` is used for development and `enviornment.prod.ts` is used for produciton. The `apiHost` variable should be set to your server URL either locally or in the cloud.
 
-
 ### Running the Development Server
 Ionic CLI provides an easy to use development server to run and auto-reload the frontend. This allows you to make quick changes and see them in real time in your browser. To run the development server, open terminal and run:
 
@@ -59,3 +58,10 @@ ionic build
 ```
 
 # Starting Udagram (Automagically)
+
+```bash
+cd scripts
+bash build_images.sh
+
+bash kubenetes_apply_yml.sh
+```
