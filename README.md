@@ -16,7 +16,7 @@ Correspondingly, the project is split into following parts:
 1. The Simple Frontend - A basic Ionic client web application which consumes the RestAPI Backend.
 1. Nginx as a reverse-proxy server, when different backend services are running on the same port, then a reverse proxy server directs client requests to the appropriate backend server and retrieves resources on behalf of the client.
 
-For more details see [README.md] (Project_Refactor-Udagram-app-into-Microservices-and-Deploy/README.md)
+For more details see [README.md](Project_Refactor-Udagram-app-into-Microservices-and-Deploy/README.md)
 
 ## Clone the project GitHub repository
 Create a project folder in your local computer and clone the following Git repository - https://github.com/udacity/nd990-c3-microservices-v1

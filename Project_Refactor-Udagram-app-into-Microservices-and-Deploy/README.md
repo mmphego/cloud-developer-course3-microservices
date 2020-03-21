@@ -61,7 +61,11 @@ ionic build
 
 ```bash
 cd scripts
-bash build_images.sh
-
+# Script will run all Dockerfiles and build
+#bash build_images.sh
+# Script will build all docker files and run the respective containers
+bash build_docker_compose.sh
+minikube start --vm-driver=docker
+# Script will configure kubenetes
 bash kubenetes_apply_yml.sh
 ```
